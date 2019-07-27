@@ -65,6 +65,24 @@ class Window(QtWidgets.QMainWindow):
         self.btn = QtWidgets.QPushButton('Download', self)
         self.btn.move(200,120)
         self.btn.clicked.connect(self.download)
+        
+        print(self.style().objectName())
+        self.styleChoice = QtWidgets.QLabel('Windows vista', self)
+        
+        comboBox = QtWidgets.QComboBox(self)
+        comboBox.addItem('Fusion')
+        comboBox.addItem('Breeze')
+        comboBox.addItem('Plastik')
+        comboBox.addItem('windows')
+        
+        comboBox.move(50,250)
+        self.styleChoice.move(50,150)
+        comboBox.activated[str].connect(self.style_choice)
+        
+    def style_choice(self, text):
+        self.styleChoice.setText(text)
+        QtWidgets.QApplication.setStyle(QtWidgets.QStyleFactory.create(text))
+        
        
     def download(self):
         self.completed = 0
