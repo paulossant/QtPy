@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "name": "a1",
+      "type": "Voltage Regulator",
+      "sub-type": "A",
+      "Quantity": 3201,
+      "Location": "SMD1a",
+      "Unit price": 3.0,
+      "Datasheet": "asd",
+      "Package": "TO-220"
+    },
+    {
+      "name": "ch",
+      "type": "Transistor",
+      "sub-type": "CH",
+      "Quantity": 5,
+      "Location": "SMD1",
+      "Unit price": 1.31,
+      "Datasheet": "file:///run/media/pssantos/HDD/Documentos/Datasheets/an8473.pdf",
+      "Package": "TO-220"
+    },
+    {
+      "name": "chW",
+      "type": "Resistor",
+      "sub-type": "CHW",
+      "Quantity": 7002,
+      "Location": "SMD1e4",
+      "Unit price": 1.2,
+      "Datasheet": "file:///run/media/pssantos/HDD/Documentos/Datasheets/an8473.pdf",
+      "Package": "TO-220"
+    },
+    {
+      "name": "bA",
+      "type": "Mosfet",
+      "sub-type": "B2A1",
+      "Quantity": 5452,
+      "Location": "SMD1a",
+      "Unit price": 1.0,
+      "Datasheet": "http://www.google.pta",
+      "Package": "TO-220"
+    },
+    {
+      "name": "c3",
+      "type": "Transistor",
+      "sub-type": "C3",
+      "Quantity": 1217,
+      "Location": "SMD1",
+      "Unit price": 6.01,
+      "Datasheet": "file:///run/media/pssantos/HDD/Documentos/Datasheets/an8473.pdf",
+      "Package": "TO-2201"
+    }
+  ]
+}

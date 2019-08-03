@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "name": "2n2222",
+      "type": "Transistor",
+      "sub-type": "NPN",
+      "Quantity": 10,
+      "Location": "SMD1",
+      "Unit price": 0.1,
+      "Datasheet": "file:///run/media/pssantos/HDD/Documentos/Datasheets/an8473.pdf",
+      "Package": "TO-220"
+    },
+    {
+      "name": "2n2223",
+      "type": "Transistor",
+      "sub-type": "NPNa",
+      "Quantity": 101,
+      "Location": "SMD1a",
+      "Unit price": 0.101,
+      "Datasheet": "http://www.google.pta",
+      "Package": "TO-220"
+    },
+    {
+      "name": "2n22232",
+      "type": "Opamp",
+      "sub-type": "NPNa",
+      "Quantity": 101,
+      "Location": "SMD1a",
+      "Unit price": 1,
+      "Datasheet": "asd",
+      "Package": "TO-220"
+    }
+  ]
+}
